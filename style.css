@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:wght@200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+header {
+    background-color: rgb(13, 101, 145);
+    padding:0em;
+}
+
+h1 {
+    font-family: raleway;
+    color: rgb(215, 197, 174);
+    font-size: 40px;
+    margin-top: 30px;
+    }
+
+a {
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+    margin-bottom:30px;
+    color:bisque;
+    font-family: raleway;
+}
