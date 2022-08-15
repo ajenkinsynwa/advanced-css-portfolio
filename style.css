@@ -5,14 +5,14 @@
     padding: 0;
     margin: 0;
     overflow: auto;
-    
+
 }
 
 main {
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
 body {
@@ -36,13 +36,13 @@ h1 {
     margin-top: 30px;
 }
 
-.profilepic { 
+.profilepic {
     background-color: #2d2f31;
     box-shadow: -5px -5px rgb(8, 178, 190);
     padding: 5px;
     margin-right: 90px;
     margin-bottom: 1px;
-    } 
+}
 
 a {
     text-decoration: none;
@@ -50,23 +50,23 @@ a {
     margin: 10px;
     margin-bottom: 30px;
     margin-right: 40px;
-    color: rgb(54, 53, 60);
+    color:rgb(210, 226, 220);
     font-family: raleway;
     font-size: 20px;
-    
+
 }
 
 .about {
     font-family: raleway;
     font-size: 20px;
-    color:rgb(166, 179, 183);
+    color: rgb(211, 222, 225);
     overflow-wrap: break-word;
     text-align: center;
     background-color: rgb(86, 145, 175);
     box-shadow: -5px -5px grey;
     padding: 30px;
-    margin-left: 40px; 
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 90px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -78,73 +78,93 @@ a {
     border: solid #efe2e2;
     margin-left: 50px;
     margin-top: 30px;
-    }
+}
 
 figure {
-    display:flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 h2 {
     font-family: raleway;
     margin-top: 10px;
     font-size: 40px;
-    margin-bottom:25px;
-    margin-left: 50px
+    margin-bottom: 25px;
+    margin-left: 50px;}
+
+.backgroundh2 {
+    background-color: khaki;
+    margin-left: 60px;
+    padding: 1px;
+    margin-bottom: 4px;
 }
 
-.p1 {
+.mainproject {
+    font-family: raleway;
+    
+}
+   
+    .p1 {
     font-family: raleway;
     color: grey;
     margin: 34px;
+    
 }
 
-.grid-container > div {
+.grid-container>div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     margin: 60px;
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 .digital1 {
-    width: 400px;
+    width: 600px;
     height: 400px;
     border: solid #efe2e2;
     margin-left: 50px;
-    margin-top: 30px;
-    }
+    margin-top: 70px;
+}
 
-    
+.digital2 {
+    width: 350px;
+    height: 400px;
+    border: solid #efe2e2;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.footertabs {
+    color: black;
+    margin-right: 97px;
+}
+
 
 @media screen and (max-width: 992px) {
     header {
-      background:  rgb(13, 101, 145);
+        background: rgb(13, 101, 145);
     }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
     nav {
-      background-color: rgb(13, 101, 145);
-     display: flex;
+        background-color: rgb(13, 101, 145);
+        display: flex;
     }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    body{
-      background-color: #8ac4ff;
-      display: flex;
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    body {
+        background-color:lightblue;
+        display: flex;
     }
-  }
-      
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     p {
-      background-color: rgb(13, 101, 145);
-     display: flex;
+        background-color:rgb(86, 145, 175);
+        display: flex;
     }
-  }
- 
-
-
+}
