@@ -44,6 +44,7 @@ h1 {
     padding: 5px;
     margin-right: 90px;
     margin-bottom: 1px;
+    
 }
 /* Nav Links  */  
 
@@ -62,7 +63,7 @@ a {
 
 }
 
-/* hover over nav links */ 
+/* hover over nav links color transistion */ 
 a:hover {
     color: antiquewhite;
     border-radius: 8px;
@@ -119,6 +120,7 @@ p {
     background-color: rgb(61, 105, 128);
     margin-right: 40px;
     font-weight: bold;
+    
 
 }
 
