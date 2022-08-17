@@ -9,8 +9,9 @@ better understanding of your skill set. It is also important to make sure that y
 
 ## Porfolio Screen Shot Example 
 
-![The Password Generator application displays a red button to "Generate Password".](images/screenshotportfolio.png)
+![The Password Generator application displays a red button to "Generate Password".](/assets/images/screenshotportfolio.png)
 
-## Link to GitHub Repository & Portfolio Webpage 
-[GitHub](https://choosealicense.com/licenses/mit/)
+## Link to GitHub Repository & Live Portfolio Webpage 
+[GitHub](https://github.com/ajenkinsynwa/advanced-css-portfolio)
+[Live Portfolio Webpage](https://ajenkinsynwa.github.io/advanced-css-portfolio/)
 
