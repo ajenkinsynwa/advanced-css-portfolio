@@ -13,5 +13,6 @@ better understanding of your skill set. It is also important to make sure that y
 
 ## Link to GitHub Repository & Live Portfolio Webpage 
 [GitHub](https://github.com/ajenkinsynwa/advanced-css-portfolio)
+
 [Live Portfolio Webpage](https://ajenkinsynwa.github.io/advanced-css-portfolio/)
 
